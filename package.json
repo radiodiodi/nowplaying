@@ -1,0 +1,17 @@
+{
+  "name": "nowplaying-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Panu Oksiala <panu@oksiala.fi>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "debug": "node --inspect src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "dotenv": "^5.0.1",
+    "validator": "^9.4.1",
+    "ws": "^5.1.1"
+  }
+}
